@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100vw;
+    padding-left: 10px;
+    position: fixed;
+    z-index: 2;
+    height: 10vh;
+    background-color: antiquewhite;
+    top: 0;
+    color: white;
+}
+
+main{
+    padding: 0 55px;
+    margin-top: 11vh;
+    background-color: rgb(182, 149, 212);
+    color: white;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 100px;
+
+}
+li{
+    margin-left: 8px;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin-left: 45px;
+}
+.image{
+    padding-left: 150px;
+ 
+}
+.picture{ 
+    border-radius: 10px;
+
+    height: 60vh;
+    align-items: center;
+    align-items: center;
+}
+.text{
+    background-color:white;
+    text-align: center;
+    padding: 22px;
+    /* padding-right: 15px; */
+    width: 206px;
+    margin-left: 150px;
+    color: rgb(37, 36, 37);
+
+}
+.img{
+    height:30px;
+    width:30vh;
+}
+.image{
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1opx;
+}
+    
+
+.box{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.Home{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+}
+.teach{
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.last{
+    background-color: black;
+    color:white;
+    margin-top:12px;
+}   
+
+
+.interest{
+    display: flex;
+    flex-direction: column;
+}
+.date img{
+    width:20px;
+}
+.date{
+    flex-direction: initial;
+    display: flex;
+}
+.port{
+    border: 0.5px solid;
+    text-align: center;
+    padding: 8px;
+    width: 90px;
+    border-radius: 5px;
+}
+.interest{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    justify-content: space-between;
+}
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 120vw;
+        padding-right: 20px;
+        color: white;
+    }
+
+
+
+.here{
+
+    padding-left: 70px;
+}
+span{
+    color: blue;
+}
+.tact{
+
+}
+
+.bookmark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+.review{
+    display: flex;
+    flex-direction: column;
+
+}
+.review img{
+    width:300px;
+    margin-right:95px;
+}
+.project{
+    padding-left: 50px;
+}
+.manage{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+h1{
+    color: black;
+}
+.insure{
+    padding-left: 500px;
+}
+.act{
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Asure{
+    padding-left: 368px;
+}
+.DOVE{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    
+}
